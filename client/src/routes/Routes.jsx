@@ -7,6 +7,7 @@ import { ErrorPage } from "../pages/ErrorPage";
 // import SuccessPage from "../pages/Orders/SuccessPage";
 import ScrollToTop from "../components/ui/ScrollToTop";
 import HomePage from "../pages/HomePage";
+import CreateForm from "../pages/CreateForm";
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
                 path: "",
                 element: <HomePage />,
             },
+            {
+                path: "create",
+                element: <CreateForm />,
+            }
             // {
             //     path: "login",
             //     element: <LoginPage />,

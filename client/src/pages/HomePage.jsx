@@ -6,7 +6,16 @@ function HomePage() {
 
     return (
         <div>
-            <h1>hello world</h1>
+            <h1>
+                <button>
+                    create form
+                </button>
+            </h1>
+            <h1>
+                <button>
+                    fill created form
+                </button>
+            </h1>
         </div>
     );
 }
