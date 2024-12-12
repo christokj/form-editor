@@ -46,7 +46,7 @@ const MatchingQuestionCreator = () => {
   const handleDragOver = (e) => e.preventDefault();
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen space-y-6">
+    <div className="p-6 bg-gray-100 w-1/2  mx-auto space-y-6">
       {/* Question Input */}
       <div className="p-4 bg-white rounded shadow">
         <h2 className="text-xl font-bold mb-4">Form Creator</h2>
